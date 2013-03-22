@@ -1,0 +1,20 @@
+﻿Locale: en
+en:
+  broadcast:
+    pre: '&9Сохранение мира!'
+    post: '&9Сохранение мира завершено'
+  broadcastbackup:
+    pre: '&9AutoBackuping'
+    post: '&9AutoBackup Complete'
+  status:
+    fail: '&9AutoSave has stopped, check the server logs for more info'
+    'off': '&9AutoSave is not running (disabled)'
+  insufficentpermissions: '&cYou do not have access to that command.'
+  stopping: '&9AutoSave Stopping'
+  starting: '&9AutoSave Starting'
+  version: '&9AutoSave v${VERSION}, Instance ${UUID}'
+  warning: '&9Warning, AutoSave will commence soon.'
+  warningbackup: '&9Warning, AutoBackup will commence soon'
+broadcastpurge:
+  pre: '&9AutoPurging'
+  post: '&9AutoPurge Complete'
