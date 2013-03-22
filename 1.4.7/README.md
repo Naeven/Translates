@@ -1,1 +1,1 @@
-Translates for 1.4.7 game version
+Переводы для плагинов версией 1.4.7
