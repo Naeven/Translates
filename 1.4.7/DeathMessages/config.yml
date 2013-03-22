@@ -1,0 +1,168 @@
+﻿#------------------------------ About Plugin/Author ------------------------------
+# Name: Death Messages
+# Author: Goty
+# Bukkit Profile: http://dev.bukkit.org/profiles/Mayhem777/
+# Version 1.9
+# Description: Change the Default Bukkit Death Messages as you Wish, including colors, victim, killer and weapon.
+#------------------------------ About Config ------------------------------
+### Change those TAGS as you wish.
+# %player = victim
+# %killer = assasin (only for player kills, PvP)
+# %weapon_material = material name of the weapon wielded by the killer(only for player kills, PvP)
+# %weapon_name = meta name of the weapon, instead of the material one, if there's no name it'll show the material one.
+### Don't forget to use bukkit colors if you want ===>    http://dev.bukkit.org/media/images/42/45/Colors.png
+# And other Bukkit Formats ===>    &n = Underlined   ||   &o = Italic   ||   &m = Strike-through   ||   &l = Bold
+### Some Examples:
+# Example for Creeper Message = '&2%player &Elikes to hug &CCreepers&E, he is a pill of dust now...'
+# Example for PvP Message = '&2%player &Eбыл убит &Ckiller&E, wielding his mighty &C%weapon'
+### Finally, add all optional random messages as you wish:
+# Add the aditional lines you want under the others (or remove them) to add (or remove) more messages, be careful with the indentation.
+#------------------------------ Configurable Death Message Causes ------------------------------
+### Mob Causes
+Blaze:
+  - '&2%player &Eбыл подожжён &CИфритом'
+  - '&2%player &Eбыл подожжён &CИфритом'
+CaveSpider:
+  - '&2%player &Eбыл убил &CПещерным пауком'
+  - '&2%player &Eбыл убит &CПещерным пауком'
+Creeper:
+  - '&2%player &Eвзорвался'
+  - '&2%player &Eвзорвался'
+EnderDragon:
+  - '&2%player &Eбыл убит &CДраконом края'
+  - '&2%player &Eбыл убит &CДраконом края'
+Enderman:
+  - '&2%player &Eбыл убит &CЭндерманом'
+  - '&2%player &Eбыл убит &CЭндерманом'
+Ghast:
+  - '&2%player &Eбыл подожжён &CГастом'
+  - '&2%player &Eбыл подожжён &CГастом'
+Giant:
+  - '&2%player &Eбыл убит &CГигантом'
+  - '&2%player &Eбыл убит &CГигантом'
+IronGolem:
+  - '&2%player &Eбыл убит &CГолемом'
+  - '&2%player &Eбыл убит &CГолемом'
+MagmaCube:
+  - '&2%player &Eбыл убит &CАдским слизнем'
+  - '&2%player &Eбыл убит &CАдским слизнем'
+PigZombie:
+  - '&2%player &Eбыл убит &CСвинозомби'
+  - '&2%player &Eбыл убит &CСвинозомби'
+Silverfish:
+  - '&2%player &Eбыл убит &CЧешуйницей'
+  - '&2%player &Eбыл убит &CЧешуйницей'
+SkeletonArcher:
+  - '&2%player &Eбыл застрелен &CСкелетом'
+  - '&2%player &Eбыл застрелен &CСкелетом'
+SkeletonMelee:
+  - '&2%player &Eбыл убит &CСкелетом'
+  - '&2%player &Eбыл убит &CСкелетом'
+Slime:
+  - '&2%player &Eбыл убит &CСлизнем'
+  - '&2%player &Eбыл убит &CСлизнем'
+Spider:
+  - '&2%player &Eбыл убит &CПауком'
+  - '&2%player &Eбыл убит &CПауком'
+Witch:
+  - '&2%player &Eбыл убит &CВедьмой'
+  - '&2%player &Eбыл убит &CВедьмой'
+Wolf:
+  - '&2%player &Eбыл убит &CВолком'
+  - '&2%player &Eбыл убит &CВолком'
+Zombie:
+  - '&2%player &Eбыл убит &CЗомби'
+  - '&2%player &Eбыл убит &CЗомби'
+### Wither
+Wither:
+  - '&2%player &Eвзорвался'
+  - '&2%player &Eвзорвался'
+WitherEffect:
+  - '&2%player &Eзасох'
+  - '&2%player &Eзасох'
+### Wither Skeleton
+WitherSkeleton:
+  - '&2%player &Eбыл убит &CСкелетом'
+  - '&2%player &Eбыл убит &CСкелетом'
+### PvP Causes
+PvPFist:
+  - '&2%player &Eбыл убит &C%killer'
+  - '&2%player &Eбыл убит &C%killer'
+PvPWeapon:
+  - '&2%player &Eбыл убит &C%killer'
+  - '&2%player &Eбыл убит &C%killer'
+# Weapon Tag NOT APLICABLE
+PvPBow:
+  - '&2%player &Eбыл застрелен &C%killer'
+  - '&2%player &Eбыл застрелен &C%killer'
+### Other Causes
+TNT:
+  - '&2%player &Eвзорвался'
+  - '&2%player &Eвзорвался'
+Cactus:
+  - '&2%player &Eобнял кактус'
+  - '&2%player &Eобнял кактус'
+Anvil:
+  - '&2%player &Eпопробовал поймать наковальню'
+  - '&2%player &Eпопробовал поймать наковальню'
+# Раздатчик only has 1 message for deaths, but i added another one if player dies from a fireball ;)
+РаздатчикArrow:
+  - '&2%player &Eбыл застрелен'
+  - '&2%player &Eбыл застрелен'
+РаздатчикFireball:
+  - '&EA &CРаздатчик &Eобжарил &2%player'
+  - '&EA &CРаздатчик &Eобжарил &2%player'
+Drowning:
+  - '&2%player &Eутонул'
+  - '&2%player &Eутонул'
+PotionofHarming:
+  - '&2%player &Eбыл убит magic'
+# In Minecraft you can't die from normal Poison, you just get to half heart, anyway it a Poison Potion hits you when u're with low health and kills you or by other plugins this could happen.
+Fall:
+  - '&2%player &Eпросто упал'
+  - '&2%player &Eпросто упал'
+Poison:
+  - '&2%player &Eотравился'
+  - '&2%player &Eотравился'
+# Direct exposure to a fire block
+FireBlock:
+  - '&2%player &Eсгорел'
+  - '&2%player &Eсгорел'
+# Death caused by burns after leaving a Fire Block or Lava Block.
+FireEffect:
+  - '&2%player &Eсгорел'
+  - '&2%player &Eсгорел'
+Lava:
+  - '&2%player &Eпробовал плавать в лаве'
+  - '&2%player &Eпробовал плавать в лаве'
+# You usually get "сгорел" like cause of death by a thunder, now you can specify what you want, anyway if the fire kills you first the cause will still being the fire.
+Lightning:
+  - '&2%player &Eсгорел'
+  - '&2%player &Eсгорел'
+Starvation:
+  - '&2%player &Eпроголодался'
+  - '&2%player &Eпроголодался'
+Suffocation:
+  - '&2%player &Eзадохнулся в стенах'
+  - '&2%player &Eзадохнулся в стенах'
+# Suicide message is only possible when player uses /suicide or /kill to himself.
+Suicide:
+  - '&2%player &Eумер'
+  - '&2%player &Eумер'
+Void:
+  - '&2%player &Eвыпал из мира'
+  - '&2%player &Eвыпал из мира'
+# Weird causes like killed by EnderPearl, Eggs and Snowballs.
+# Snowmans can't kill players cause Snowballs have no damage, anyway some servers change this mechanic for fun (like my server), so i added it too.
+Others:
+  - '&2%player &Eбыл избит'
+  - '&2%player &Eбыл избит'
+Snowman:
+  - '&2%player &Eбыл заморожен &CSnowman'
+  - '&2%player &Eбыл заморожен &CSnowman'
+## Rest of the Causes, command causes will be showed here, like /kill or /suicide case doesn't have a damager.
+Unknown:
+  - '&2%player &Eвыпал из мира'
+  - '&2%player &Eвыпал из мира'
+### DON'T USE, EXPERIMENTAL - NEXT VERSION
+# PvPPotion:'&2%player &Eбыл убит &C%killer'
