@@ -1,0 +1,38 @@
+﻿unknown_user: Пользователя нету в базе данных
+unsafe_spawn: Ваше последнее место нахождения не безопасно. Вы телепортированы на спавн
+not_logged_in: '&cВы не авторизованы!'
+reg_voluntarily: Вы можете зарегистрироваться, используя "/register <пароль> <пароль>"
+usage_log: '&2Используйте &c/login <пароль>'
+wrong_pwd: '&cНеправильный пароль'
+unregistered: '&2Теперь вы не зарегистрированы!'
+reg_disabled: '&cРегистрация выключена'
+valid_session: '&cСессия действительна'
+login: '&2Вы успешно вошли!'
+vb_nonActiv: Ваш аккаунт ещё не активирован! Проверьте свой E-Mail!
+user_regged: '&cПользователь уже зарегистрирован'
+usage_reg: '&2Используйте: &c"/register <пароль> <пароль>"'
+max_reg: Вы превысили максимальное число регистраций для аккаунта
+no_perm: '&cНет прав'
+error: Произошла ошибка. Пожалуйста, свяжитесь с администратором
+login_msg: '&2Авторизуйтесь &c"/login <пароль>"'
+reg_msg: '&2Зарегистрируйтесь &c"/register <пароль> <пароль>"'
+usage_unreg: '&2Используйте: &c/unregister <пароль>'
+pwd_changed: '&2Пароль изменен!'
+user_unknown: '&cПользователь не зарегистрирован'
+password_error: Пароли не совпадают
+unvalid_session: Даты сессий не совпадают. Пожалуйста, дождитесь конца сессии
+reg_only: Только для зарегистрированных игроков! Пожалуйста, посетите http://example.com, чтобы зарегистрироваться
+logged_in: '&cВы уже авторизованы!'
+logout: '&2Вы успешно вышли'
+same_nick: Игрок с таким ником уже играет на сервере
+registered: '&2Вы успешно зарегистрировались!'
+pass_len: Ваш пароль не достигает минимальной длины
+reload: Конфигурация и база данных были перезагружены
+timeout: Время авторизации вышло
+usage_changepassword: '&2Используйте: &c/changepassword <старый пароль> <новый пароль>'
+name_len: '&cYour nickname is too Short or too long'
+regex: '&cYour nickname contains illegal characters. Allowed chars: REG_EX'
+add_email: '&cPlease add your email with : /email add yourEmail confirmEmail'
+bad_database_email: '[AuthMe] This /email command only available with MySQL and SQLite,
+  contact an Admin'
+recovery_email: '&cForgot your password? Please use /email recovery <yourEmail>'
