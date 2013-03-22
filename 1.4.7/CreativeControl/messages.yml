@@ -1,0 +1,50 @@
+﻿## This is the CreativeControl Messages File.
+## You can translate everything before the ":"
+## Also, everything between "{}" will be replaced by something...
+## You can use any color codes. e.g &1 &k ...
+## Don't forgot to share your translation back with us!
+prefix:
+  ## tag, used to replace the [TAG] in the messages
+  tag: "&8[&3CreativeControl&8]&7:&f"
+
+MainNode:
+  restricted: "&4Вы не можете этого сделать в творческом режиме!"
+
+BlockPlace:
+  cantplace: "&7Вы не можете ставить это в творческом режиме!"
+
+## BlockManager, all messages related with the ownblock/nodrop function
+BlockManager:
+  belongsto: "&7Этот блок пренадлежит игроку &4{0}"
+  unprotected: "&cЭтот блок не защищён"
+  alreadyprotected: "&cЭтот блок уже защищён"
+  blockprotected: "&4Блок успешно защищён"
+  blockunprotected: "&4Блок удалён из базы данных"
+  worlddisabled: "&cЭтот мир выключен в конфигурации"
+  typeexcluded: "&cЭтот блок не может быть защищён"
+
+BlockBreak:
+  cantbreak: "&7Вы не можете сломать этот блок в творческом режиме!"
+  nosurvival: "&7Этот блок не может быть сломан в режиме выживания!"
+  creativeblock: "&7Этот блок из творческого режима,поэтому он не может выпасть."
+
+Limits:
+  vehicles: "&7Лимит транспорта превышен,сломайте хотя бы один старый!"
+
+Regions:
+  ## Use {0} to replace with the region name
+  welcome_creative: "&7Вы вошли в творческий режим!"
+  welcome_survival: "&7Вы вошли в режим выживания!"
+  farewell_creative: "&7Вы покинули творческий режим!"
+  farewell_survival: "&7Вы покинули режим выживания!"
+  creative_unallowed: "&7Творческий режим недоступен в этом мире!"
+  survival_unallowed: "&7Режим выживания не доступен в этом мире!"
+
+BlackList:
+  commands: "&4Вы не можете использовать команду в творческом режиме!"
+
+Selection:
+  first_point: "&7Первая позиция установлена! (&4{0}&7,&4 {1}&7,&4 {2}&7)"
+  second_point: "&7Вторая позиция установлена! (&4{0}&7,&4 {1}&7,&4 {2}&7)"
+
+# End of the file -->
